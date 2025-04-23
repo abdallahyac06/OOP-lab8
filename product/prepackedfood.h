@@ -12,8 +12,8 @@ public:
     PrepackedFood(long = 0, const std::string& = "", double = 0);
     void setPrice(double);
     double getPrice() const;
-    virtual void scanner();
-    virtual void printer() const;
+    void scanner();
+    void printer() const;
 };
 
 #endif

@@ -15,8 +15,8 @@ public:
     double getWeight() const;
     void setPricePerKg(double);
     double getPricePerKg() const;
-    virtual void scanner();
-    virtual void printer() const;
+    void scanner();
+    void printer() const;
 };
 
 #endif

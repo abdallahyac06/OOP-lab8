@@ -14,8 +14,8 @@ public:
     long getCode() const;
     void setName(const std::string&);
     std::string getName() const;
-    virtual void scanner();
-    virtual void printer() const;
+    void scanner();
+    void printer() const;
 };
 
 #endif
